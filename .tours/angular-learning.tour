@@ -48,6 +48,11 @@
           "character": 4
         }
       }
+    },
+    {
+      "file": "src/app/app.component.html",
+      "description": "@NgModel",
+      "line": 30
     }
   ],
   "ref": "main"
