@@ -1,0 +1,54 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Angular learning",
+  "steps": [
+    {
+      "file": "src/app/app.component.html",
+      "description": "Paso 1: Los String Interpolation es la forma como Angular nos permite tomar datos de la lógica e implementarlos en los elementos HTML, la sintaxis es {{property}} y son datos que Angular trae directamente del archivo de lógica del componente."
+    },
+    {
+      "file": "src/app/app.component.html",
+      "selection": {
+        "start": {
+          "line": 2,
+          "character": 9
+        },
+        "end": {
+          "line": 2,
+          "character": 33
+        }
+      },
+      "description": "Los property bindings sirven para poner lógica de programación en las propiedades de los elementos HTML."
+    },
+    {
+      "file": "src/app/app.component.html",
+      "selection": {
+        "start": {
+          "line": 3,
+          "character": 9
+        },
+        "end": {
+          "line": 3,
+          "character": 33
+        }
+      },
+      "description": "Angular nos permite escuchar los eventos que ocurren en los elementos HTML con ésta sintaxis."
+    },
+    {
+      "file": "src/app/app.component.ts",
+      "description": "Algunos métodos para manejar los elementos HTML según los eventos que ocurran.",
+      "line": 21,
+      "selection": {
+        "start": {
+          "line": 21,
+          "character": 3
+        },
+        "end": {
+          "line": 37,
+          "character": 4
+        }
+      }
+    }
+  ],
+  "ref": "main"
+}
