@@ -24,3 +24,15 @@
 <p> 3 + 3 = {{ 3 + 3 }}</p>
 <h3>Hola, soy {{ name }} y tengo {{age}}</h3>
 <img src={{img}} alt="">
+
+<hr>
+
+<h2>Ng Model</h2>
+<p>Nombre: {{person.name}}</p>
+<input type="text" required #nameInput="ngModel" [(ngModel)]="person.name">
+<p>Valid: {{ nameInput.valid }}</p>
+
+<p>Edad: {{person.age}}</p>
+<input type="number" max="21" min="15" required #ageInput="ngModel" [(ngModel)]="person.age">
+<p>Valid: {{ ageInput.valid }}</p>
+
