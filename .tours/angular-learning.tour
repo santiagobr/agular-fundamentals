@@ -53,6 +53,11 @@
       "file": "src/app/app.component.html",
       "description": "@NgModel",
       "line": 30
+    },
+    {
+      "file": "src/app/app.component.html",
+      "description": "ngIf es una forma de realizar una condicional para controlar el contenido que muestran las etiquetas de HTML.",
+      "line": 39
     }
   ],
   "ref": "main"
