@@ -42,19 +42,19 @@
           "character": 33
         }
       },
-      "description": "Angular nos permite escuchar los eventos que ocurren en los elementos HTML con ésta sintaxis."
+      "description": "Paso 3: Angular nos permite escuchar los eventos que ocurren en los elementos HTML con ésta sintaxis."
     },
     {
       "file": "src/app/app.component.ts",
-      "description": "Algunos métodos para manejar los elementos HTML según los eventos que ocurran.",
+      "description": "Paso 4: Algunos métodos para manejar los elementos HTML según los eventos que ocurran.",
       "selection": {
         "start": {
-          "line": 21,
+          "line": 22,
           "character": 3
         },
         "end": {
-          "line": 37,
-          "character": 4
+          "line": 34,
+          "character": 1
         }
       }
     },
@@ -67,8 +67,8 @@
           "character": 1
         },
         "end": {
-          "line": 51,
-          "character": 34
+          "line": 52,
+          "character": 1
         }
       }
     },
@@ -81,7 +81,7 @@
           "character": 1
         },
         "end": {
-          "line": 70,
+          "line": 72,
           "character": 1
         }
       }
