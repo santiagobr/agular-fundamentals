@@ -5,12 +5,14 @@
     {
       "file": "src/app/app.component.html",
       "description": "Paso 1: Los String Interpolation es la forma como Angular nos permite tomar datos de la lógica e implementarlos en los elementos HTML, la sintaxis es {{property}} y son datos que Angular trae directamente del archivo de lógica del componente.",
-      "line": 4
+      "line": 4,
+      "title": "String Interpolation"
     },
     {
       "file": "src/app/app.component.html",
       "description": "Paso 2: Los property bindings sirven para poner lógica de programación en las propiedades de los elementos HTML.",
-      "line": 2
+      "line": 2,
+      "title": "Property Bindings"
     },
     {
       "file": "src/app/app.component.html",
@@ -24,7 +26,8 @@
           "character": 73
         }
       },
-      "description": "Paso 3: Angular nos permite escuchar los eventos que ocurren en los elementos HTML con ésta sintaxis."
+      "description": "Paso 3: Angular nos permite escuchar los eventos que ocurren en los elementos HTML con ésta sintaxis.",
+      "title": "Angular Events"
     },
     {
       "file": "src/app/app.component.html",
@@ -38,7 +41,8 @@
           "character": 7
         }
       },
-      "description": "Paso 4: Algunos métodos para manejar los elementos HTML según los eventos que ocurran."
+      "description": "Paso 4: Algunos métodos para manejar los elementos HTML según los eventos que ocurran.",
+      "title": "Managment of elements with events"
     },
     {
       "file": "src/app/app.component.html",
@@ -52,7 +56,8 @@
           "character": 35
         }
       },
-      "description": "Paso 5: NgModel"
+      "description": "Paso 5: NgModel",
+      "title": "Ng Model"
     },
     {
       "file": "src/app/app.component.html",
@@ -66,7 +71,8 @@
           "character": 15
         }
       },
-      "description": "Paso 6: *NgIf"
+      "description": "Paso 6: *NgIf",
+      "title": "NgIf"
     },
     {
       "file": "src/app/app.component.html",
@@ -80,7 +86,8 @@
           "character": 6
         }
       },
-      "description": "Paso 7: *ngFor"
+      "description": "Paso 7: *ngFor",
+      "title": "NgFor"
     }
   ],
   "ref": "main"
