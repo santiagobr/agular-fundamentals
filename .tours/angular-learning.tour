@@ -45,8 +45,7 @@
       "description": "Paso 3: Angular nos permite escuchar los eventos que ocurren en los elementos HTML con ésta sintaxis."
     },
     {
-      "file": "src/app/app.component.ts",
-      "description": "Paso 4: Algunos métodos para manejar los elementos HTML según los eventos que ocurran.",
+      "file": "src/app/app.component.html",
       "selection": {
         "start": {
           "line": 22,
@@ -56,11 +55,11 @@
           "line": 34,
           "character": 1
         }
-      }
+      },
+      "description": "Paso 4: Algunos métodos para manejar los elementos HTML según los eventos que ocurran."
     },
     {
       "file": "src/app/app.component.html",
-      "description": "@NgModel",
       "selection": {
         "start": {
           "line": 37,
@@ -70,11 +69,11 @@
           "line": 52,
           "character": 1
         }
-      }
+      },
+      "description": "@NgModel"
     },
     {
       "file": "src/app/app.component.html",
-      "description": "ngIf es una forma de realizar una condicional para controlar el contenido que muestran las etiquetas de HTML.",
       "selection": {
         "start": {
           "line": 55,
@@ -84,7 +83,8 @@
           "line": 72,
           "character": 1
         }
-      }
+      },
+      "description": "ngIf es una forma de realizar una condicional para controlar el contenido que muestran las etiquetas de HTML."
     }
   ],
   "ref": "main"
