@@ -1,43 +1,82 @@
 <h1>Eventos</h1>
 <button [disabled]="btnDisabled">Enviar</button>
 <button (click)="toggleButton()">Toggle Button</button>
-<p>Edad {{person.age}}</p>
+<p>Edad {{ person.age }}</p>
 <button (click)="increaseAge()">Age ++</button>
-<p>Nombre {{person.name}}</p>
-<input type="text" [value]="person.name" (keyup)="changeName($event)">
+<p>Nombre {{ person.name }}</p>
+<input type="text" [value]="person.name" (keyup)="changeName($event)" />
 
 <div class="box" (scroll)="onScroll($event)">
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aspernatur cupiditate eius impedit totam vel doloremque animi, voluptatem perspiciatis eos. Laborum odio dolorem veritatis cumque molestiae fuga inventore vitae incidunt!
-  Accusantium molestiae nihil quibusdam distinctio, doloribus dignissimos error impedit perspiciatis? Pariatur nulla totam ullam porro impedit ad obcaecati sunt, voluptas alias quis ut voluptatum blanditiis id placeat recusandae ipsam est!</p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+    aspernatur cupiditate eius impedit totam vel doloremque animi, voluptatem
+    perspiciatis eos. Laborum odio dolorem veritatis cumque molestiae fuga
+    inventore vitae incidunt! Accusantium molestiae nihil quibusdam distinctio,
+    doloribus dignissimos error impedit perspiciatis? Pariatur nulla totam ullam
+    porro impedit ad obcaecati sunt, voluptas alias quis ut voluptatum
+    blanditiis id placeat recusandae ipsam est!
+  </p>
 </div>
 
-<hr>
+<hr />
 <h1>Propiedades</h1>
 <button [disabled]="btnDisabled">Enviar</button>
-<input type="text" [value]="person.name">
+<input type="text" [value]="person.name" />
 <progress max="100" [value]="person.age"></progress>
-<img [src]="person.avatar" width="100">
+<img [src]="person.avatar" width="100" />
 
-<hr>
+<hr />
 <h1>Hola mundo</h1>
-<h2>{{ 'Hola Mundo '.repeat(5) }}</h2>
-<p> 3 + 3 = {{ 3 + 3 }}</p>
-<h3>Hola, soy {{ name }} y tengo {{age}}</h3>
-<img src={{img}} alt="">
+<h2>{{ "Hola Mundo ".repeat(5) }}</h2>
+<p>3 + 3 = {{ 3 + 3 }}</p>
+<h3>Hola, soy {{ name }} y tengo {{ age }}</h3>
+<img src="{{ img }}" alt="" />
 
-<hr>
+<hr />
 
 <h2>Ng Model</h2>
-<p>Nombre: {{person.name}}</p>
-<input type="text" required #nameInput="ngModel" [(ngModel)]="person.name">
+<p>Nombre: {{ person.name }}</p>
+<input type="text" required #nameInput="ngModel" [(ngModel)]="person.name" />
 <p>Valid: {{ nameInput.valid }}</p>
 
-<p>Edad: {{person.age}}</p>
-<input type="number" max="21" min="15" required #ageInput="ngModel" [(ngModel)]="person.age">
+<p>Edad: {{ person.age }}</p>
+<input
+  type="number"
+  max="21"
+  min="15"
+  required
+  #ageInput="ngModel"
+  [(ngModel)]="person.age"
+/>
 <p>Valid: {{ ageInput.valid }}</p>
 
-<hr>
+<hr />
 
 <h2>*ngIf</h2>
-<input type="text" required [(ngModel)]="person.name">
-<p *ngIf="person.name === 'Nicolas' || person.name === 'Julian' && person.age === 21">Soy {{person.name}} y tengo {{person.age}}</p>
+<input type="text" required [(ngModel)]="person.name" />
+<p
+  *ngIf="
+    person.name === 'Nicolas' ||
+      (person.name === 'Julian' && person.age === 21);
+    else myBlock
+  "
+>
+  Soy {{ person.name }} y tengo {{ person.age }}
+</p>
+
+<ng-template #myBlock>
+  <p>Bloque else</p>
+</ng-template>
+
+<hr />
+
+<h2>*ngFor</h2>
+<input type="text" required [(ngModel)]="newName" />
+<button (click)="addName()">Add name</button>
+<ul>
+  <li *ngIf="names.length === 0">No hay nombres</li>
+  <li *ngFor="let name of names; index as i">
+    {{ i }} {{ name }}
+    <button (click)="deleteName(i)">Delete</button>
+  </li>
+</ul>
