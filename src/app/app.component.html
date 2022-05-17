@@ -80,3 +80,14 @@
     <button (click)="deleteName(i)">Delete</button>
   </li>
 </ul>
+
+<hr />
+
+<h2>*ngFor Objs</h2>
+<div>
+  <div *ngFor="let product of products">
+    <img width="250px" [src]="product.image" alt="image" />
+    <h2>{{ product.price }}</h2>
+    <p>{{ product.name }}</p>
+  </div>
+</div>
