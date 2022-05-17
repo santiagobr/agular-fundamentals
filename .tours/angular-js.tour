@@ -1,0 +1,87 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Angular JS",
+  "steps": [
+    {
+      "file": "src/app/app.component.html",
+      "description": "Paso 1: Los String Interpolation es la forma como Angular nos permite tomar datos de la lógica e implementarlos en los elementos HTML, la sintaxis es {{property}} y son datos que Angular trae directamente del archivo de lógica del componente.",
+      "line": 4
+    },
+    {
+      "file": "src/app/app.component.html",
+      "description": "Paso 2: Los property bindings sirven para poner lógica de programación en las propiedades de los elementos HTML.",
+      "line": 2
+    },
+    {
+      "file": "src/app/app.component.html",
+      "selection": {
+        "start": {
+          "line": 3,
+          "character": 1
+        },
+        "end": {
+          "line": 7,
+          "character": 73
+        }
+      },
+      "description": "Paso 3: Angular nos permite escuchar los eventos que ocurren en los elementos HTML con ésta sintaxis."
+    },
+    {
+      "file": "src/app/app.component.html",
+      "selection": {
+        "start": {
+          "line": 9,
+          "character": 1
+        },
+        "end": {
+          "line": 19,
+          "character": 7
+        }
+      },
+      "description": "Paso 4: Algunos métodos para manejar los elementos HTML según los eventos que ocurran."
+    },
+    {
+      "file": "src/app/app.component.html",
+      "selection": {
+        "start": {
+          "line": 37,
+          "character": 1
+        },
+        "end": {
+          "line": 51,
+          "character": 35
+        }
+      },
+      "description": "Paso 5: NgModel"
+    },
+    {
+      "file": "src/app/app.component.html",
+      "selection": {
+        "start": {
+          "line": 55,
+          "character": 1
+        },
+        "end": {
+          "line": 69,
+          "character": 15
+        }
+      },
+      "description": "Paso 6: *NgIf"
+    },
+    {
+      "file": "src/app/app.component.html",
+      "selection": {
+        "start": {
+          "line": 73,
+          "character": 1
+        },
+        "end": {
+          "line": 82,
+          "character": 6
+        }
+      },
+      "description": "Paso 7: *ngFor"
+    }
+  ],
+  "ref": "main"
+}
