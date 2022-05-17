@@ -4,6 +4,16 @@
   "steps": [
     {
       "file": "src/app/app.component.html",
+      "selection": {
+        "start": {
+          "line": 4,
+          "character": 1
+        },
+        "end": {
+          "line": 4,
+          "character": 29
+        }
+      },
       "description": "Paso 1: Los String Interpolation es la forma como Angular nos permite tomar datos de la lógica e implementarlos en los elementos HTML, la sintaxis es {{property}} y son datos que Angular trae directamente del archivo de lógica del componente."
     },
     {
@@ -18,7 +28,7 @@
           "character": 33
         }
       },
-      "description": "Los property bindings sirven para poner lógica de programación en las propiedades de los elementos HTML."
+      "description": "Paso 2: Los property bindings sirven para poner lógica de programación en las propiedades de los elementos HTML."
     },
     {
       "file": "src/app/app.component.html",
