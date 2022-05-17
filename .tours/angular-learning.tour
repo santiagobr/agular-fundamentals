@@ -47,7 +47,6 @@
     {
       "file": "src/app/app.component.ts",
       "description": "Algunos métodos para manejar los elementos HTML según los eventos que ocurran.",
-      "line": 21,
       "selection": {
         "start": {
           "line": 21,
@@ -62,12 +61,30 @@
     {
       "file": "src/app/app.component.html",
       "description": "@NgModel",
-      "line": 30
+      "selection": {
+        "start": {
+          "line": 37,
+          "character": 1
+        },
+        "end": {
+          "line": 51,
+          "character": 34
+        }
+      }
     },
     {
       "file": "src/app/app.component.html",
       "description": "ngIf es una forma de realizar una condicional para controlar el contenido que muestran las etiquetas de HTML.",
-      "line": 39
+      "selection": {
+        "start": {
+          "line": 55,
+          "character": 1
+        },
+        "end": {
+          "line": 70,
+          "character": 1
+        }
+      }
     }
   ],
   "ref": "main"
