@@ -130,6 +130,48 @@
         }
       },
       "description": "# NgFor Arrays --> Array of Objects\n\nLa data que está en objetos y va a ser mostrada en pantalla."
+    },
+    {
+      "file": "src/app/app.component.html",
+      "selection": {
+        "start": {
+          "line": 97,
+          "character": 1
+        },
+        "end": {
+          "line": 103,
+          "character": 7
+        }
+      },
+      "description": "# NgSwitch\n\n**Paso 9:** ngSwitch permite tener una estructura de tipo **Switch** para mostrar el contenido de etiquetas html y/o estilos según los casos del *switch*."
+    },
+    {
+      "file": "src/app/app.component.html",
+      "selection": {
+        "start": {
+          "line": 107,
+          "character": 1
+        },
+        "end": {
+          "line": 129,
+          "character": 7
+        }
+      },
+      "description": "# Class & Style\n\nPaso 10: Por medio del ngModel y/o las variables de referencia podemos asignar estilos a nuestros elementos con la sintaxis de las _property bindings_ `[style.width.px]=\"widthImg\"` esto nos permite asignar estilos inline, pero tambien asignar clases según nuestro modelo actual."
+    },
+    {
+      "file": "src/app/app.component.html",
+      "selection": {
+        "start": {
+          "line": 129,
+          "character": 1
+        },
+        "end": {
+          "line": 155,
+          "character": 7
+        }
+      },
+      "description": "# NgClass & NgStyle\n\n**Paso 11**: Estas propiedades nos permiten asignar clases o estilos de forma agrupada para tener un mejor manejo de los estilos de nuestro sitio."
     }
   ],
   "ref": "main"
