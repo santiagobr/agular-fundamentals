@@ -172,6 +172,20 @@
         }
       },
       "description": "# NgClass & NgStyle\n\n**Paso 11**: Estas propiedades nos permiten asignar clases o estilos de forma agrupada para tener un mejor manejo de los estilos de nuestro sitio."
+    },
+    {
+      "file": "src/app/app.component.html",
+      "selection": {
+        "start": {
+          "line": 159,
+          "character": 1
+        },
+        "end": {
+          "line": 177,
+          "character": 8
+        }
+      },
+      "description": "# Form\n\n**Paso 12:** Todas las funcionalidades de los formularios en un ejemplo de registro."
     }
   ],
   "ref": "main"

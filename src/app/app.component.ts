@@ -6,11 +6,18 @@ import { Product } from './product.model';
   styleUrls: ['./app.component.sass'],
 })
 export class AppComponent {
+  widthImg = 10;
   name = 'Santiago';
   age = 20;
   img =
     'https://static.platzi.com/media/achievements/badge-fundamentos-angular-1e2e6052-abba-4c05-9233-03bba9866523.png';
   btnDisabled = true;
+
+  register =  {
+    name: '',
+    email: '',
+    password: '',
+  }
 
   person = {
     name: 'Santiago',
@@ -20,6 +27,12 @@ export class AppComponent {
 
   names: string[] = ['Nico', 'Juli', 'Santi'];
   newName = '';
+
+  box = {
+    width: 10,
+    height: 10,
+    background: 'red'
+  }
 
   products: Product[] = [
     {
@@ -80,5 +93,9 @@ export class AppComponent {
 
   deleteName(index: number) {
     this.names.splice(index, 1);
+  }
+
+  onRegister() {
+    console.log(this.register)
   }
 }

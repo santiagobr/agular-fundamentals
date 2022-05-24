@@ -3,3 +3,44 @@
   width: 200px
   overflow: auto
   background: red
+
+.products--grid
+  display: flex
+  flex-direction: column
+  div
+    img
+      width: 100%
+      border-radius: 16px
+    h2, p
+      margin: 0
+
+.message-error
+  background: red
+  color: white
+  transition: all linear .5s
+  opacity: 0
+  &.invalid
+    opacity: 1
+
+.styles
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+
+.line-error
+  height: 0
+  border-bottom: 1px solid
+  &.invalid
+    border-color: red
+  &.valid
+    border-color: green
+
+@media screen and (min-width: 450px)
+  .products--grid
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    grid-gap: 16px
+@media screen and (min-width: 770px)
+  .products--grid
+    display: grid
+    grid-template-columns: repeat(5, 1fr)
+    grid-gap: 16px
